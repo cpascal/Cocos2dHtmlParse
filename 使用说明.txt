@@ -15,4 +15,6 @@ Cocos2dHtmlParse是基于Cocos2dx中的Cocos2dxStudio扩展UI的Html文本解析
 5.最后运行build_studio.bat
 6.再编译Cocos2dx,就可以在Lua中使用了
 
+官方主页: http://www.cocos2dres.com
+
 
