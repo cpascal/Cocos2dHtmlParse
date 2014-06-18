@@ -1,23 +1,23 @@
-enum HTMLVIEW_MOVE_DIR
+ï»¿enum HTMLVIEW_MOVE_DIR
 {
     HTMLVIEW_MOVE_DIR_NONE,
     HTMLVIEW_MOVE_DIR_UP,
     HTMLVIEW_MOVE_DIR_DOWN, 
 };
 
-/// ÊäÈë¿Ø¼ş¹ÜÀí
+/// è¾“å…¥æ§ä»¶ç®¡ç†
 struct SInputInfo
 {
 	std::string		strName;
-	ui::ImageView*	pImageView;	/// ÊäÈë¿ò
-	ui::TextField*	pTextField;	/// ÊäÈë¿ò
+	ui::ImageView*	pImageView;	/// è¾“å…¥æ¡†
+	ui::TextField*	pTextField;	/// è¾“å…¥æ¡†
 };
 
-/// ÊäÈë¿Ø¼ş¹ÜÀí
+/// è¾“å…¥æ§ä»¶ç®¡ç†
 struct SExpression
 {
 	std::string		strName;
-	UIExpression*	pExpression;	/// ±íÇé¶¯»­
+	UIExpression*	pExpression;	/// è¡¨æƒ…åŠ¨ç”»
 };
 
 class UIHtmlView : public Layout
@@ -27,56 +27,56 @@ public:
     virtual ~UIHtmlView();
     static UIHtmlView* create();
 
-	/// ÉèÖÃÏÔÊ¾ÇøÓò´óĞ¡
+	/// è®¾ç½®æ˜¾ç¤ºåŒºåŸŸå¤§å°
 	virtual void setSize(const CCSize &size);
 
 	virtual void setLuaFuncName(const char * lpLuaCallName,const char * lpLuaWndCallName, const char* lpLuaDataCallName );
 
-	/// ÉèÖÃÏÔÊ¾ÄÚÈİ£¬½öÖ§³Öhtml¸ñÊ½´® »áÇå¿ÕÖ®Ç°ÄÚÈİ
+	/// è®¾ç½®æ˜¾ç¤ºå†…å®¹ï¼Œä»…æ”¯æŒhtmlæ ¼å¼ä¸² ä¼šæ¸…ç©ºä¹‹å‰å†…å®¹
 	virtual void setText(const char * strContent);
-	/// ×·¼ÓÏÔÊ¾ÄÚÈİ
+	/// è¿½åŠ æ˜¾ç¤ºå†…å®¹
 	virtual void addString( const char *strContent );
-	/// Çå¿ÕÏÔÊ¾ÄÚÈİ
+	/// æ¸…ç©ºæ˜¾ç¤ºå†…å®¹
 	virtual void clearString();
 
 	/**
-	@brief ÉèÖÃÄ¬ÈÏ×ÖÌåÃû
+	@brief è®¾ç½®é»˜è®¤å­—ä½“å
 	@param
 	*/
 	void setFontName( const char* pFontName );
 
 	/**
-	@brief ÉèÖÃ×ÖÌå´óĞ¡
+	@brief è®¾ç½®å­—ä½“å¤§å°
 	@param
 	*/
 	void setFontSize( int nSize );
 
 	/**
-	@brief ÉèÖÃ×î´óÈİÁ¿
+	@brief è®¾ç½®æœ€å¤§å®¹é‡
 	@param
 	*/
 	void setMaxLine( int nMaxLines );
 
 	/**
-	@brief ¹ö¶¯µ½¶¥²¿
+	@brief æ»šåŠ¨åˆ°é¡¶éƒ¨
 	@param
 	*/
 	void scrollTop();
 
 	/**
-	@brief ¹ö¶¯µ½µ×²¿
+	@brief æ»šåŠ¨åˆ°åº•éƒ¨
 	@param
 	*/
 	void scrollBottom();
 
 	/**
-	@brief ÉèÖÃ´°¿ÚÃû
+	@brief è®¾ç½®çª—å£å
 	@param
 	*/
 	void setWindowName( const char* pszWindowName ) { if( pszWindowName != NULL ) { m_strWindowName = pszWindowName; } }
 
-	/// »ñÈ¡ÏÔÊ¾ÄÚÈİ×ÜµÄÏñËØ¿í¸ß
+	/// è·å–æ˜¾ç¤ºå†…å®¹æ€»çš„åƒç´ å®½é«˜
 	CCSize getContentPixelSize();
-	/// ÊÇ·ñÔÊĞíÍÏ¶¯
+	/// æ˜¯å¦å…è®¸æ‹–åŠ¨
 	void setTouchMoved( bool bMoved );
 };

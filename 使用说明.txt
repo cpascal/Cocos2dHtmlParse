@@ -1,18 +1,18 @@
-Cocos2dxHtmlParse
-Cocos2dHtmlParseÊÇ»ùÓÚCocos2dxÖÐµÄCocos2dxStudioÀ©Õ¹UIµÄHtmlÎÄ±¾½âÎöºÍÏÔÊ¾¿â
+ï»¿Cocos2dxHtmlParse
+Cocos2dHtmlParseæ˜¯åŸºäºŽCocos2dxä¸­çš„Cocos2dxStudioæ‰©å±•UIçš„Htmlæ–‡æœ¬è§£æžå’Œæ˜¾ç¤ºåº“
 .
 
-³ÌÐò¿âÒÀÀµ:
-1.Cocos2dx v.23°æ±¾
-2.Cocos2dxÀ©Õ¹UI¿â
+ç¨‹åºåº“ä¾èµ–:
+1.Cocos2dx v.23ç‰ˆæœ¬
+2.Cocos2dxæ‰©å±•UIåº“
 
-Ê¹ÓÃËµÃ÷£º
-1.½«Html´úÂë¿â¿½±´ÖÁ %Cocos2dx%/extensions/CocoStudio/GUIÄ¿Â¼ÏÂ
-2.Èç¹ûÖ»ÊÇÔÚC++ÖÐÊ¹ÓÃ£¬Ö±½Ó±àÒë¾Í¿ÉÒÔÊ¹ÓÃ
-´´½¨UIHtmlView¾Í¿ÉÒÔÁË
-3.Èç¹ûÒªµ¼³ö¸øLuaÊ¹ÓÃ£¬ÔòÐèÒª½«UIHtmlView.pkg¿½±´µ½%Cocos2dx%/tools/tolua++ÖÐ
-4.ÔÚCocoStudio.pkg×îºó¼ÓÈë$pfile "UIHtmlView.pkg"
-5.×îºóÔËÐÐbuild_studio.bat
-6.ÔÙ±àÒëCocos2dx,¾Í¿ÉÒÔÔÚLuaÖÐÊ¹ÓÃÁË
+ä½¿ç”¨è¯´æ˜Žï¼š
+1.å°†Htmlä»£ç åº“æ‹·è´è‡³ %Cocos2dx%/extensions/CocoStudio/GUIç›®å½•ä¸‹
+2.å¦‚æžœåªæ˜¯åœ¨C++ä¸­ä½¿ç”¨ï¼Œç›´æŽ¥ç¼–è¯‘å°±å¯ä»¥ä½¿ç”¨
+åˆ›å»ºUIHtmlViewå°±å¯ä»¥äº†
+3.å¦‚æžœè¦å¯¼å‡ºç»™Luaä½¿ç”¨ï¼Œåˆ™éœ€è¦å°†UIHtmlView.pkgæ‹·è´åˆ°%Cocos2dx%/tools/tolua++ä¸­
+4.åœ¨CocoStudio.pkgæœ€åŽåŠ å…¥$pfile "UIHtmlView.pkg"
+5.æœ€åŽè¿è¡Œbuild_studio.bat
+6.å†ç¼–è¯‘Cocos2dx,å°±å¯ä»¥åœ¨Luaä¸­ä½¿ç”¨äº†
 
 
